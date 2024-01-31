@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Tags</title>
+</head>
+<body style="  background-image: linear-gradient(to left, rgba(3, 41, 35, 0.603), rgba(17, 109, 126));;align-items:center;justify-content:center">
+    <div class="screen" style="background-color: #FFFF;height: 800px;width: 600px; border: 2px solid black;text-align: center;margin:30px 500px;">
+        <h1 style="text-decoration:underline;justify-content: center;margin-top: 50px; font-size: 40px;">
+            DATA FORUM
+         </h1>
+         <form action ="#" style="margin-top:50px; font-size:25px;">
+             <h6 popover id = "myheader">Thank you for submitting your details !</h6>
+             <label for="fname">FirstName:   </label>
+             <input type="text" name="fname" placeholder="John"><br><br>
+             <label for="lname">LastName:    </label>
+             <input type=" text" name="lname" placeholder="Doe"><br><br>
+             <label for="username">Username: </label>
+             <input type="text" placeholder = "Ex:abcd123" name="username" maxlength="10"><br><br>
+             <label for="pwd">PassWord:  </label>
+             <input type="password" name="pwd" maxlength="10" placeholder="12345678"><br><br>
+             <label for="date">Enter Your DOB:   </label>
+             <input type="date" value="2024-01-11"><br><br>
+             <!-- FILE SUMISSION -->
+             <label for="avatar" style="margin-left: -60px;">Choose a profile picture:</label><br><br>
+             <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" style="margin-left: -20px; font-size: 15px;"><br><br>
+             <!-- Radio button -->
+             <label for="Gender">Select your Gender: </label>
+             <input type="radio" name="Gender" value="Male" checked>Male
+             <input type="radio" name="Gender" value="Female">Female<br><br>
+     
+             <!-- CHECKBOX  -->
+             <label for="interests">Interests:  </label>
+             <input type="checkbox" id="coding" name="interest" value="coding" checked />
+             <label for="coding">Coding</label>
+             <input type="checkbox" id="music" name="interest" value="music" />
+             <label for="music">Music</label><BR><BR>
+             <!-- DROPDOWN TAG -->
+             <label for="dropdown">Select your branch :</label>
+             <select name="dropdown" id="">
+                 <option value="CSE CORE">CSE CORE</option>
+                 <option value="CSE CORE">AI & ML</option>
+                 <option value="CSE CORE">AI & ROBOTICS</option>
+                 <option value="CSE CORE">CYBER PHYSICAL SYSTEMS</option>
+             </select><br><br>
+             <input type="submit" value=" SUBMIT " popovertarget="myheader" style="color:black; border-radius:7px ;font-weight:800;height:40px;background-color: orangered; ">
+     
+         </form>
+    </div>
+    
+</html>
+</body>

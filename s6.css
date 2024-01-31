@@ -1,0 +1,50 @@
+*{
+height:100%;
+width:100%;
+box-sizing:border-box;align-items:center;text-align:center;
+}
+h1{
+	height:50px;
+	width:350px;
+	color:lavender;
+	background-color: rgb(13, 143, 78);
+	margin-left:500px;
+	padding:40px;
+}
+p{
+	height:80px;
+	width:900px;
+	margin-left:50px;
+	padding:40px;
+	color:lavender;
+	background-color: rgb(13, 143, 78);
+	font-size:25px;
+	border:4px double red;
+	
+}
+#p1{
+	background-color:rgb(67, 138, 167);
+	color:white;
+	font-size:25px;
+	padding:10px 20px 20px 30px;
+	
+}
+
+.p2{
+	background-color:rgb(67, 138, 167);
+	color:white;
+	font-size:25px;
+	padding:10px 20px 20px 30px;
+}
+#image{
+	position:absolute;
+	z-index:+10;
+	height:450px;
+	width:auto;
+	margin-left:70px;
+}
+.font-style{
+	font-style:italic;
+	
+	background-color:rgb(67, 138, 167);
+}

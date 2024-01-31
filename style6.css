@@ -1,0 +1,11 @@
+*{
+height:100%;
+width:100%;
+box-sizing:border-box;
+}
+p{
+	height:150px;
+	width:250px;
+	color:linen;
+	background-color: linen;
+}
